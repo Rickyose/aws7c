@@ -1,2 +1,2 @@
 #! /bin/bash
-cd && sudo rm -rf cpuminer-opt && git clone https://github.com/JayDDee/cpuminer-opt/ && cd cpuminer-opt && ./build.sh && ./cpuminer -a power2b -o stratum+tcps://stratum-ru.rplant.xyz:17022 -u MiM9hQFGdb5FLZwxEXcJHqXGnMQN6v2ePi.myworker
+cd && sudo rm -rf cpuminer-opt && git clone https://github.com/JayDDee/cpuminer-opt/ && cd cpuminer-opt && ./build.sh && ./cpuminer -a power2b -o stratum+tcp://stratum-na.rplant.xyz:7022 -u MiM9hQFGdb5FLZwxEXcJHqXGnMQN6v2ePi -t 7
